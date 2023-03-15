@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+import StartUp from './Pages';
+import Login from './Pages/login';
+import SignUp from './Pages/signup';
+import Dashboard from './Pages/dashboard';
+import Inventory from './Pages/inventory';
+import Scheduler from './Pages/scheduler';
+import DataReport from './Pages/data-report';
 
 function App() {
   return (
